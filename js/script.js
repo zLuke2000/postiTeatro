@@ -1,4 +1,4 @@
-var selezionato = false;
+var selezionato = "";
 
 function mouseClick(postoRAW) {
 }
