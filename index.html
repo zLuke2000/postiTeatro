@@ -134,6 +134,19 @@
                 </div>
             </div>
         </div>
+        <form action="php/insert.php" method="POST">
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome" required>
+                    <input type="text" class="form-control" id="cognome" name ="cognome"  placeholder="Cognome" required>
+                    <input type="email" class="form-control" id="mail" name ="mail"  placeholder="Email" required>
+
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+                    <label class="form-check-label" for="flexCheckDefault">Trattamento dei dati</label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-info">Prenota</button>
+        </form>
     </div>
 </body>
 </html>
